@@ -4,10 +4,10 @@
 This project demonstrates how to containerize and deploy the Wisecow application on a Kubernetes environment using AWS services. It includes setting up continuous integration and deployment (CI/CD) with GitHub Actions and securing the application with TLS.
 
 ## Prerequisites
-1.AWS Account: You need an AWS account with permissions to create and manage ECR repositories, EKS clusters, IAM roles, and other resources.
-2.Docker: Installed on your local machine to build Docker images.
-3.kubectl: Kubernetes command-line tool installed on your local machine.
-4.aws-cli: AWS command-line interface installed and configured on your local machine.
+1. AWS Account: You need an AWS account with permissions to create and manage ECR repositories, EKS clusters, IAM roles, and other resources.
+2. Docker: Installed on your local machine to build Docker images.
+3. kubectl: Kubernetes command-line tool installed on your local machine.
+4. aws-cli: AWS command-line interface installed and configured on your local machine.
 
 ## Steps
 ### 1. Set Up Your AWS Environment
