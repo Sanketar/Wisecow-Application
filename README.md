@@ -28,13 +28,13 @@ This project demonstrates how to containerize and deploy the Wisecow application
 
 #### 3. Set Up IAM Roles:
 
-- EKS Cluster Role:
+# * EKS Cluster Role:
 * Go to the IAM console.
 * Click on Roles and then Create role.
 * Choose EKS and attach the AmazonEKSClusterPolicy policy.
 * Name the role (e.g., eks-cluster-role) and create it.
-
-- EKS Node Group Role:
+  
+# * EKS Node Group Role:
 * Create another role for EKS node groups.
 * Choose EKS and then EKS - Nodegroup.
 * Attach the following policies:
